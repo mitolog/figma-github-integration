@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "lib": ["dom", "es6", "scripthost"],
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "types": ["node"],
+    "outDir": "./dist",
+    "removeComments": true,
+    "sourceMap": false,
+    "target": "es6"
+  },
+  "include": ["index.ts", "src/**/*"],
+  "exclude": ["./node_modules", "./src/__tests__/**/*", "dist"]
+}

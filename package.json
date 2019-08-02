@@ -1,0 +1,36 @@
+{
+  "name": "figma-github-integration",
+  "version": "1.0.0",
+  "description": "concept to manage figma files with branch functionality by using github",
+  "main": "index.js",
+  "repository": "https://github.com/mitolog/figma-github-integration",
+  "author": "mitolog",
+  "license": "Apache-2.0",
+  "private": false,
+  "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.0.0",
+    "fs-extra": "^8.1.0",
+    "git-commit-push-via-github-api": "^1.0.2",
+    "minimist": "^1.2.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^8.0.0",
+    "@types/node": "^12.6.9",
+    "figma-types": "git+ssh://git@github.com:mitolog/figma-types.git#feature/add-files-to-package-json",
+    "prettier": "^1.18.2",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-microsoft-contrib": "^6.2.0",
+    "tsutils": "^3.14.1",
+    "typescript": "^3.5.3"
+  },
+  "scripts": {
+    "tslint-check": "tslint-config-prettier-check ./tslint.json"
+  },
+  "files": [
+    "dist",
+    ".env.default"
+  ]
+}
